@@ -1,0 +1,699 @@
+﻿html {
+  height: 100%;
+  font-size: 62.5% !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#document {
+  -webkit-box-shadow: 0 0 10px rgba(88,88,95,0.12);
+  box-shadow: 0 0 10px rgba(88,88,95,0.12);
+  background-color: #fff;
+  border: 1px solid #e8ecf0;
+}
+.link,
+a.link:not(.btn) {
+  display: inline-block;
+  color: #09f;
+  cursor: pointer;
+}
+.link:hover,
+.link:focus,
+.link:active,
+a.link:not(.btn):hover,
+a.link:not(.btn):focus,
+a.link:not(.btn):active {
+  text-decoration: none;
+  outline: none;
+  color: #09f;
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  color: #09f;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+}
+h1,
+.h1 {
+  font-size: 2.3rem;
+}
+h2,
+.h2 {
+  font-size: 2rem;
+}
+h3,
+.h3 {
+  font-size: 1.6rem;
+}
+h4,
+.h4 {
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+h4.link,
+.h4.link {
+  color: #09f !important;
+}
+h5,
+.h5 {
+  font-size: 1.3rem;
+}
+h6,
+.h6 {
+  font-size: 1rem;
+}
+.p {
+  font-size: 1.3rem;
+  color: #212529;
+}
+.font-primary {
+  font-family: "Open Sans", sans-serif;
+}
+.font-weight-semibold {
+  font-weight: 600;
+}
+.text-default {
+  color: #46464e !important;
+}
+.text-primary {
+  color: #09f;
+}
+.text-tertiary {
+  color: #6c757d;
+}
+.text-red {
+  color: #e6533e !important;
+}
+.text-gray {
+  color: #adb5bd !important;
+}
+.text-green {
+  color: #00b384;
+}
+.text-link {
+  color: #09f !important;
+  text-decoration: underline;
+}
+.text-link:hover {
+  color: #09f;
+  text-decoration: none;
+}
+:root {
+  --red: #ff6d67;
+  --orange: #fe4841;
+  --primary: #09f;
+  --secondary: #5cb85c;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
+}
+@-ms-viewport {
+  width: device-width;
+}
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #515d6b;
+}
+[tabindex="-1"]:focus {
+  outline: 0 !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+address {
+  margin-bottom: 1rem;
+  font-style: normal;
+  line-height: inherit;
+}
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+a {
+  color: #09f;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=main.css.map */
+
+.my-skills .singlecolumn {
+  display: flex;
+}
+
+.my-skills .paddedline {
+  flex: 1.5;
+}
+
+.my-skills .ratingWrapper {
+  flex: 1;
+}
+
+.my-skills .ratingWrapper .noLnht {
+  line-height: 25px !important;
+}
+/*Font support for MAC*/
+@font-face {
+  font-family: 'Century Gothic';
+  font-weight: normal;
+  font-style: normal;
+  src: local('Century Gothic'), url('https://content.livecareer.com/zty/fonts/CenturyGothic.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Century Gothic';
+  font-weight: bold;
+  font-style: normal;
+  src: local('Century Gothic Bold'), url('https://content.livecareer.com/zty/fonts/CenturyGothicBold.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Century Gothic';
+  font-weight: bold;
+  font-style: italic;
+  src: local('Century Gothic Bold Italic'), url('https://content.livecareer.com/zty/fonts/CenturyGothicBoldItalic.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Century Gothic';
+  font-weight: normal;
+  font-style: italic;
+  src: local('Century Gothic Italic'), url('https://content.livecareer.com/zty/fonts/CenturyGothicItalic.ttf') format('truetype')
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent
+}
+
+body {
+  line-height: 1;
+  text-align: left;
+  font-feature-settings: "liga"0;
+  -moz-font-feature-settings: "liga"off
+}
+
+#document ol,
+#document ul {
+  list-style: none
+}
+
+#document table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: inherit;
+  color: inherit;
+  width: 100%
+}
+
+/*START content disc style for LI*/
+#document ul,
+#document li {
+  margin: 0;
+  padding: 0;
+  list-style-type: disc
+}
+
+#document ul li {
+  margin: 0 0 0 16px;
+  padding: 0
+}
+
+@-moz-document url-prefix() {
+  #document ul li {
+    margin: 0 0 0 12px;
+    padding: 0 0 0 3px
+  }
+}
+
+/*END content disc style for LI*/
+
+/*table style*/
+#document table.skills,
+.table_wrapper {
+  width: 100%;
+  margin-top: 0;
+  word-wrap: break-word
+}
+
+#document table.skills th,
+table.skills td {
+  width: 20%;
+  text-align: center
+}
+
+#document table.skills .skillname,
+#document table.skills .skillrating {
+  text-align: left;
+  width: 35%
+}
+
+#document table.skills .skillrating {
+  width: 20%
+}
+
+#document table.skills .skillyears,
+#document table.skills .skilllast {
+  width: 19%
+}
+
+#document table.skills .pad1 {
+  width: 5%
+}
+
+#document .skills .pad2,
+#document table.skills .pad3 {
+  width: 1%
+}
+
+/* document */
+#document {
+  box-sizing: border-box;
+  color: #343434;
+  font-variant-ligatures: none;
+  line-height: 16px;
+  min-height: 792px;
+  word-wrap: break-word
+}
+
+#document .name {
+  color: #fff;
+  font-weight: 700;
+  position: relative;
+  text-align: left;
+  word-wrap: break-word
+}
+
+#document .address .singlecolumn {
+  margin-left: 0 !important
+}
+
+#document .heading {
+  border-bottom: 1px solid #d5d6d6;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 15px;
+  margin-bottom: 10px;
+  padding: 0 0 3px
+}
+
+#document .sectiontitle {
+  color: #252932;
+  word-wrap: break-word
+}
+
+#document .degreeGap {
+  margin-bottom: 4px
+}
+
+#document .locationGap {
+  margin-top: 4px
+}
+
+#document .firstparagraph {
+  margin-top: 0 !important
+}
+
+#document .topsection {
+  background: #373d48;
+  padding: 15px 15px 20px
+}
+
+#document .section:empty {
+  display: none
+}
+
+#document .education .joblocation {
+  font-style: italic
+}
+
+#document .parentContainer {
+  border-collapse: collapse;
+  display: table;
+  min-height: inherit;
+  padding-bottom: 20px;
+  table-layout: fixed;
+  width: 100%
+}
+
+#document .resumeTitle {
+  color: #fff;
+  padding-top: 7px
+}
+
+/*left and right css*/
+#document .right-box,
+#document .left-box {
+  padding: 15px
+}
+
+#document .right-box {
+  background-color: #f4f4f4;
+  box-sizing: content-box;
+  display: table-cell;
+  letter-spacing: .2px;
+  vertical-align: top
+}
+
+#document .left-box .paddedline.date-content {
+  position: absolute;
+  font-weight: 700;
+  margin-left: 0;
+  width: 70px
+}
+
+#document .paragraph .singlecolumn {
+  position: relative
+}
+
+#document .left-box .summary .paragraph .singlecolumn {
+  margin-left: 0 !important
+}
+
+#document .left-box {
+  display: table-cell;
+  letter-spacing: .5px;
+  vertical-align: top
+}
+
+#document .firstsection,
+#document .left-box .section:first-child,
+#document .right-box .section:first-child {
+  padding-top: 0 !important
+}
+
+/*common css*/
+#document .txtBold {
+  font-weight: bold
+}
+
+#document .txtItl {
+  font-style: italic
+}
+
+#document .paddedline {
+  display: block
+}
+
+#document .mt5 {
+  margin-top: 5px
+}
+
+#document .word-break {
+  word-wrap: break-word
+}
+
+#document .ratingWrapper {
+  text-align: right;
+  position: relative
+}
+
+#document .ratingWrapper .noLnht {
+  line-height: 0
+}
+
+#document svg {
+  height: 12px
+}
+
+#document>div:not(.topsection) {
+  min-height: inherit
+}
+
+/* Issues fix for builder page */
+#document .ratingWrapper .default-fill {
+  fill: #373d48
+}
+#displayResume {
+  padding: 30px 0;
+}
+#displayResume #document.document {
+  min-height: 792px;
+  width: 768px;
+  margin: auto;
+}
+
+#document .SortableList {
+  min-height: inherit;
+  margin-bottom: 0 !important
+}
+
+#document .SortableList .left-box,
+#document .SortableList .right-box {
+  padding-top: 0px
+}
+
+#document .SortableItem .rating-wrapper span {
+  top: 0
+}
+
+/* Only for firefox */
+@-moz-document url-prefix() {
+  #document .parentContainer {
+    height: 1px
+  }
+}
+
+/* For dates fix */
+#document .hidedates {
+  visibility: hidden;
+  position: static !important;
+  display: block;
+  float: left
+}
+
+#document .paragraph.datespara:after {
+  content: '';
+  display: table;
+  clear: both
+}
+#document,
+#document table {
+  line-height: 18px
+}
+
+#document.pagesize {
+  width: 612px
+}
+
+#document.fontface {
+  font-family: Century Gothic
+}
+
+#document.fontsize {
+  font-size: 12px;
+}
+
+#document .section {
+  padding-top: 20px
+}
+
+#document .right-box .section:after {
+  padding-bottom: 10px
+}
+
+#document .paragraph {
+  margin-top: 10px
+}
+
+#document .singlecolumn,
+#document .maincolumn {
+  word-wrap: break-word
+}
+
+#document .left-box .singlecolumn,
+#document .left-box maincolumn {
+  margin-left: 0px
+}
+
+#document table.skills td {
+  padding-top: 5px
+}
+
+#document .jobtitle,
+#document .degree,
+#document .programline {
+  font-size: 14px
+}
+
+#document .name {
+  font-size: 36px;
+  line-height: 39.5px
+}
+
+#document .topsection {
+  background-color: #373d48
+}
+
+#document .heading {
+  line-height: 22px
+}
+
+#document .sectiontitle {
+  font-size: 16px;
+  color: #373d48
+}
+
+#document .right-box {
+  width: 170px
+}
+
+#document .left-box .paragraph .singlecolumn {
+  margin-left: 91px
+}
+
+#document .left-box .paddedline.date-content {
+  left: -91px
+}
+
+#document .resumeTitle {
+  font-size: 18px
+}
+
+
+/*fixes for builder page*/
+#document .left-box>.SortableItem,
+#document .right-box>.SortableItem {
+  padding-top: 20px
+}
+
+#document .ratingWrapper .default-fill {
+  fill: #373d48
+}
+
+/*Hover border style*/
+#document.active .wrapper-bg {
+  left: -62px !important;
+  right: -62px !important
+}
+
+#document.active .acrs-bdr {
+  left: -60px !important
+}
+
+#document.active .acr-edit,
+#document.active .acr-delete {
+  left: -59px !important
+}
+
+#document.active .acr-move {
+  right: -59px !important
+}
