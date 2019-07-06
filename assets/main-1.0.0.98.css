@@ -17322,3 +17322,19 @@ body.SRZ2 #document.active .dates_wrapper {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+.my-skills .singlecolumn {
+  display: flex;
+}
+
+.my-skills .paddedline {
+  flex: 1.5;
+}
+
+.my-skills .ratingWrapper {
+  flex: 1;
+}
+
+.my-skills .ratingWrapper .noLnht {
+  line-height: 25px !important;
+}
